@@ -1,5 +1,5 @@
 class Solution:
-    def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
+    def spiralOrder(self, matrix: list[list[int]]) -> list[int]:
         import math
         m = len(matrix) # number of rows
         n = len(matrix[0]) # number of columns
